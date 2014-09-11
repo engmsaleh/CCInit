@@ -1,0 +1,9 @@
+if url = ENV["REDISCLOUD_URL"]
+  Sidekiq.configure_server do |config|
+    config.redis = { :url => url, :namespace => '<%= app_name %>-api' }
+  end
+
+  Sidekiq.configure_client do |config|
+    config.redis = { :url => url, :namespace => '<%= app_name %>-api' }
+  end
+end

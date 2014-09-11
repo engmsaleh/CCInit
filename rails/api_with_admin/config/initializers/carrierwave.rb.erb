@@ -1,0 +1,11 @@
+CarrierWave.configure do |config|
+  config.fog_credentials = {
+    :provider               => 'AWS',
+    :aws_access_key_id      => '<the_id>',
+    :aws_secret_access_key  => '<the_secret>',
+    :region                 => 'ap-southeast-1'
+  }
+  config.fog_directory  = '<%= app_name %>'
+  config.fog_public     = true # depends on the budget
+  config.fog_attributes = {'Cache-Control'=>'max-age=315576000'}
+end

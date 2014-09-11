@@ -1,0 +1,35 @@
+# README
+
+<%= app_name %> (Ruby on Rails) accessible at <http://<%= app_name %>.herokuapp.com>. Admin panel is provided at <http://<%= app_name %>.herokuapp.com/admin>
+
+## Local Machine Setup
+
+1. System dependencies: Mac/Linux (preferably Ubuntu), Rails, Git, PostgreSQL (use <http://postgresapp.com/> for Mac, use package manager on Linux)
+1. Open your terminal or command line
+1. Install RVM (Ruby Version Manager) via <http://rvm.io/>
+1. Install Ruby version 2.1.1: `rvm install 2.1.1`
+1. Clone this project using Git
+1. Install <%= app_name %> dependencies: `bundle`
+1. Create local database: `rake db:create`
+1. Migrate database: `rake db:migrate`
+1. Seed database with default data: `rake db:seed`
+1. Start server: `rails s`
+1. Open browser at <http://localhost:3000>
+
+## Deployment
+
+1. Setup git remote pointing to Heroku server: `git remote add production <remote>`
+1. Push to production remote: `git push production master`
+
+## Background Tasks
+
+<%= app_name %> uses Sidekiq.
+
+
+# TODO
+
+- Seed database
+
+# TODO Next Time
+
+- Cleanup code
