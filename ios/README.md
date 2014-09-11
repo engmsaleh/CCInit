@@ -25,3 +25,19 @@ Before starting a new project...
     - [XcodeRefactoringPlus](https://github.com/kinwahlai/XcodeRefactoringPlus)
     - [XcodeBoost](https://github.com/fortinmike/XcodeBoost)
 - [Dash for Xcode](http://kapeli.com/dash): Cached XCode documentations
+
+## Install Nice Color Pickers!
+
+- <http://www.aislin.co/>
+- <https://www.coleure.com/>
+- <https://kuler.adobe.com/>
+- <http://methodandcraft.com/videos/creating-harmonious-color-schemes>
+
+## Prepare Analytics+Beta+Developer Accounts and Budget
+
+- [Localytics](http://localytics.com/)
+- [Flurry](http://www.flurry.com/)
+- [TestFlight](http://testflightapp.com/)
+- [Crashlytics](http://try.crashlytics.com/)
+- [Apple Developer Program](https://developer.apple.com/)
+
