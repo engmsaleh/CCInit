@@ -1,0 +1,29 @@
+{
+  "name": "cuci-mata-web",
+  "version": "0.0.1",
+  "authors": [
+    "Nia Mutiara <nmutiara@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.16",
+    "angular-cookie": "https://github.com/ivpusic/angular-cookie.git",
+    "angular-sanitize": "1.2.16",
+    "angular-ui-select": "0.2.0",
+    "selectize": "~0.8.5",
+    "datamaps": "0.2.8",
+    "d3": "~3.3.8",
+    "angular-ui-router": "~0.2.10"
+  }
+}
