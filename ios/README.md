@@ -26,7 +26,7 @@ Before starting a new project...
     - [XcodeBoost](https://github.com/fortinmike/XcodeBoost)
 - [Dash for Xcode](http://kapeli.com/dash): Cached XCode documentations
 
-## Install Nice Color Pickers!
+## Find Color Inspiration...
 
 - <http://www.aislin.co/>
 - <https://www.coleure.com/>
