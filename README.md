@@ -4,6 +4,14 @@ CCInit is CatCyborg's boilerplates for iOS, Ruby on Rails, and Middleman static 
 
 # Usage
 
+Clone this project.
+
+```
+git clone https://github.com/catcyborg/CCInit.git
+```
+
+Then pick a project template to be initialized.
+
 ## iOS
 
 TODO
@@ -11,8 +19,10 @@ TODO
 ## Rails
 
 ```
-rails new rainbow_dog_api -J -D postgres -T
+rails new rainbow_dog_api -J -D postgres -T -m rails/api_with_admin/template.rb
 ```
+
+Replace `rainbow_dog_api` with your app name, of course.
 
 ## Middleman
 
