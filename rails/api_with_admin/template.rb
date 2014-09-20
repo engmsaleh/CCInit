@@ -33,6 +33,7 @@ end
 append_file '.gitignore' do <<-FILE
 .DS_Store
 FILE
+end
 
 gem 'rails', '4.0.2'
 gem 'rails_12factor'
@@ -115,7 +116,7 @@ inside config_path do
 
 Jbuilder.key_format camelize: :lower
 FILE
-end
+  end
 end
 copy_file File.join(self_dir, "Procfile"), "Procfile"
 
