@@ -4,3 +4,6 @@ pod 'AFNetworking', '~> 2.0'
 pod 'Mantle', '~> 1.5'
 pod 'KVOController'
 pod 'FormatterKit'
+pod 'UIView+Shake'
+pod 'MRProgress'
+
