@@ -12,7 +12,7 @@ git clone https://github.com/catcyborg/CCInit.git
 
 Then pick a project template to be initialized.
 
-## iOS (`CrudApiConsumerApp`)
+## iOS
 
 The sample project contains...
 
@@ -22,7 +22,7 @@ The sample project contains...
 
 Right now, there aren't any samples on how to use the classes and categories. More samples will be included under the [view controllers folder](https://github.com/catcyborg/CCInit/tree/master/ios/CrudApiConsumerApp/CrudApiConsumerApp/Code/ViewControllers) soon!.
 
-## Rails (`api_with_admin`)
+## Rails
 
 ```
 rails new rainbow_dog_api -J -D postgres -T -m rails/api_with_admin/template.rb
