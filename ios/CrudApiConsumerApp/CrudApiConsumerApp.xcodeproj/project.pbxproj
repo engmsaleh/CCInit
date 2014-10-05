@@ -18,10 +18,13 @@
 		0C3D7B9319D3177400B9D509 /* CCPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7B7E19D3177400B9D509 /* CCPage.m */; };
 		0C3D7B9419D3177400B9D509 /* CCPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7B8019D3177400B9D509 /* CCPager.m */; };
 		0C3D7B9519D3177400B9D509 /* CCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7B8319D3177400B9D509 /* CCRequest.m */; };
-		0C3D7B9619D3177400B9D509 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7B8A19D3177400B9D509 /* FirstViewController.m */; };
+		0C3D7B9619D3177400B9D509 /* HorizontallySectionedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7B8A19D3177400B9D509 /* HorizontallySectionedViewController.m */; };
 		0C3D7B9719D3177400B9D509 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7B8C19D3177400B9D509 /* SecondViewController.m */; };
 		0C3D7B9C19D3178200B9D509 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7B9819D3178200B9D509 /* LaunchScreen.xib */; };
 		0C3D7B9D19D3178200B9D509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7B9A19D3178200B9D509 /* Main.storyboard */; };
+		0C9342E819E1698D0053BCBE /* RowCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9342E719E1698D0053BCBE /* RowCollectionViewCell.m */; };
+		0C9342EB19E16AFB0053BCBE /* ColumnCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9342EA19E16AFB0053BCBE /* ColumnCollectionViewCell.m */; };
+		0C9342EE19E175FE0053BCBE /* SeeAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9342ED19E175FE0053BCBE /* SeeAllViewController.m */; };
 		8EA177F3D6384CF6B914DEA9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAC302B003E4D4B9AD7F94A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,12 +64,18 @@
 		0C3D7B8219D3177400B9D509 /* CCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRequest.h; sourceTree = "<group>"; };
 		0C3D7B8319D3177400B9D509 /* CCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRequest.m; sourceTree = "<group>"; };
 		0C3D7B8419D3177400B9D509 /* CP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CP.h; sourceTree = "<group>"; };
-		0C3D7B8919D3177400B9D509 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		0C3D7B8A19D3177400B9D509 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0C3D7B8919D3177400B9D509 /* HorizontallySectionedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontallySectionedViewController.h; sourceTree = "<group>"; };
+		0C3D7B8A19D3177400B9D509 /* HorizontallySectionedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontallySectionedViewController.m; sourceTree = "<group>"; };
 		0C3D7B8B19D3177400B9D509 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0C3D7B8C19D3177400B9D509 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		0C3D7B9919D3178200B9D509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0C3D7B9B19D3178200B9D509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C9342E619E1698D0053BCBE /* RowCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowCollectionViewCell.h; sourceTree = "<group>"; };
+		0C9342E719E1698D0053BCBE /* RowCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowCollectionViewCell.m; sourceTree = "<group>"; };
+		0C9342E919E16AFB0053BCBE /* ColumnCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnCollectionViewCell.h; sourceTree = "<group>"; };
+		0C9342EA19E16AFB0053BCBE /* ColumnCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnCollectionViewCell.m; sourceTree = "<group>"; };
+		0C9342EC19E175FE0053BCBE /* SeeAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeeAllViewController.h; sourceTree = "<group>"; };
+		0C9342ED19E175FE0053BCBE /* SeeAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeeAllViewController.m; sourceTree = "<group>"; };
 		3F42C6D256574A60814FE8DE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		6DAC302B003E4D4B9AD7F94A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -258,10 +267,12 @@
 		0C3D7B8819D3177400B9D509 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0C3D7B8919D3177400B9D509 /* FirstViewController.h */,
-				0C3D7B8A19D3177400B9D509 /* FirstViewController.m */,
+				0C3D7B8919D3177400B9D509 /* HorizontallySectionedViewController.h */,
+				0C3D7B8A19D3177400B9D509 /* HorizontallySectionedViewController.m */,
 				0C3D7B8B19D3177400B9D509 /* SecondViewController.h */,
 				0C3D7B8C19D3177400B9D509 /* SecondViewController.m */,
+				0C9342EC19E175FE0053BCBE /* SeeAllViewController.h */,
+				0C9342ED19E175FE0053BCBE /* SeeAllViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -269,6 +280,10 @@
 		0C3D7B8D19D3177400B9D509 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0C9342E619E1698D0053BCBE /* RowCollectionViewCell.h */,
+				0C9342E719E1698D0053BCBE /* RowCollectionViewCell.m */,
+				0C9342E919E16AFB0053BCBE /* ColumnCollectionViewCell.h */,
+				0C9342EA19E16AFB0053BCBE /* ColumnCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -417,15 +432,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3D7B9719D3177400B9D509 /* SecondViewController.m in Sources */,
-				0C3D7B9619D3177400B9D509 /* FirstViewController.m in Sources */,
+				0C9342E819E1698D0053BCBE /* RowCollectionViewCell.m in Sources */,
+				0C3D7B9619D3177400B9D509 /* HorizontallySectionedViewController.m in Sources */,
 				0C3D7AF619D3139800B9D509 /* AppDelegate.m in Sources */,
 				0C3D7B9519D3177400B9D509 /* CCRequest.m in Sources */,
 				0C3D7B9219D3177400B9D509 /* CCOneResourceRequest.m in Sources */,
 				0C3D7AF319D3139800B9D509 /* main.m in Sources */,
+				0C9342EB19E16AFB0053BCBE /* ColumnCollectionViewCell.m in Sources */,
 				0C3D7B9419D3177400B9D509 /* CCPager.m in Sources */,
 				0C3D7B8E19D3177400B9D509 /* UIScrollView+CC.m in Sources */,
 				0C3D7B9019D3177400B9D509 /* UIView+CC.m in Sources */,
 				0C3D7B9319D3177400B9D509 /* CCPage.m in Sources */,
+				0C9342EE19E175FE0053BCBE /* SeeAllViewController.m in Sources */,
 				0C3D7B8F19D3177400B9D509 /* UITableView+CC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
