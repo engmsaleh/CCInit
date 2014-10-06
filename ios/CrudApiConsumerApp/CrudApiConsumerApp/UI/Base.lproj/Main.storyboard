@@ -156,7 +156,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MUh-ct-N8o">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="fJW-N7-7P7">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="fJW-N7-7P7" customClass="CSStickyHeaderFlowLayout">
                                     <size key="itemSize" width="320" height="100"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -240,6 +240,7 @@
                     <navigationItem key="navigationItem" title="More Things in Detail" id="Ege-Oi-cXw"/>
                     <connections>
                         <outlet property="collectionView" destination="MUh-ct-N8o" id="ynE-oj-JbU"/>
+                        <outlet property="collectionViewLayout" destination="fJW-N7-7P7" id="8nh-AQ-adD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Unt-M4-l05" userLabel="First Responder" sceneMemberID="firstResponder"/>

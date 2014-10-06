@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 CatCyborg. All rights reserved.
 //
 
+#import "CSStickyHeaderFlowLayout.h"
 #import "SeeAllViewController.h"
 
 @interface SeeAllViewController () <
@@ -14,6 +15,7 @@
     UICollectionViewDelegateFlowLayout
 >
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (weak, nonatomic) IBOutlet CSStickyHeaderFlowLayout *collectionViewLayout;
 
 @end
 
@@ -21,7 +23,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view
+
+
+    // Locate the nib and register it to your collection view
+    UINib *headerNib = [UINib nibWithNibName:@"HeaderCollectionReusableView" bundle:nil];
+    [self.collectionView registerNib:headerNib
+          forSupplementaryViewOfKind:CSStickyHeaderParallaxHeader
+                 withReuseIdentifier:@"HeaderCollectionReusableView"];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    CSStickyHeaderFlowLayout *layout = (id)self.collectionViewLayout;
+    if ([layout isKindOfClass:[CSStickyHeaderFlowLayout class]]) {
+        layout.parallaxHeaderReferenceSize = (CGSize){self.collectionView.frame.size.width, 200};
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,6 +57,14 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     return [collectionView dequeueReusableCellWithReuseIdentifier:@"SeeAllItemCollectionViewCell" forIndexPath:indexPath];
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    if ([kind isEqualToString:CSStickyHeaderParallaxHeader]) {
+        return [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"HeaderCollectionReusableView" forIndexPath:indexPath];
+    }
+    return nil;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

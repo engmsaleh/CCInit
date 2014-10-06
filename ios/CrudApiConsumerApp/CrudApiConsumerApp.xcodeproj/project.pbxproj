@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C27467919E24B4A00A94522 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C27467719E24B4A00A94522 /* HeaderCollectionReusableView.xib */; };
+		0C27467C19E24BB000A94522 /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27467B19E24BB000A94522 /* HeaderCollectionReusableView.m */; };
 		0C3D7AF319D3139800B9D509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7AF219D3139800B9D509 /* main.m */; };
 		0C3D7AF619D3139800B9D509 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D7AF519D3139800B9D509 /* AppDelegate.m */; };
 		0C3D7B0119D3139800B9D509 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D7B0019D3139800B9D509 /* Images.xcassets */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C27467819E24B4A00A94522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		0C27467A19E24BB000A94522 /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		0C27467B19E24BB000A94522 /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
 		0C3D7AED19D3139800B9D509 /* CrudApiConsumerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrudApiConsumerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3D7AF119D3139800B9D509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3D7AF219D3139800B9D509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -187,6 +192,7 @@
 			children = (
 				0C3D7B9819D3178200B9D509 /* LaunchScreen.xib */,
 				0C3D7B9A19D3178200B9D509 /* Main.storyboard */,
+				0C27467719E24B4A00A94522 /* HeaderCollectionReusableView.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -284,6 +290,8 @@
 				0C9342E719E1698D0053BCBE /* RowCollectionViewCell.m */,
 				0C9342E919E16AFB0053BCBE /* ColumnCollectionViewCell.h */,
 				0C9342EA19E16AFB0053BCBE /* ColumnCollectionViewCell.m */,
+				0C27467A19E24BB000A94522 /* HeaderCollectionReusableView.h */,
+				0C27467B19E24BB000A94522 /* HeaderCollectionReusableView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -378,6 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C27467919E24B4A00A94522 /* HeaderCollectionReusableView.xib in Resources */,
 				0C3D7B9D19D3178200B9D509 /* Main.storyboard in Resources */,
 				0C3D7B9C19D3178200B9D509 /* LaunchScreen.xib in Resources */,
 				0C3D7B0119D3139800B9D509 /* Images.xcassets in Resources */,
@@ -431,6 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C27467C19E24BB000A94522 /* HeaderCollectionReusableView.m in Sources */,
 				0C3D7B9719D3177400B9D509 /* SecondViewController.m in Sources */,
 				0C9342E819E1698D0053BCBE /* RowCollectionViewCell.m in Sources */,
 				0C3D7B9619D3177400B9D509 /* HorizontallySectionedViewController.m in Sources */,
@@ -467,6 +477,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0C27467719E24B4A00A94522 /* HeaderCollectionReusableView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C27467819E24B4A00A94522 /* Base */,
+			);
+			name = HeaderCollectionReusableView.xib;
+			sourceTree = "<group>";
+		};
 		0C3D7B9819D3178200B9D509 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
